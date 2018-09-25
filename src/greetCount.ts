@@ -10,7 +10,6 @@ export default class MapUserGreetCounter implements UserGreetCounter {
         if(!currentUserCount){
             this.userMap.set(firstName, 1)
         }else{
-            //let currentUserCount = this.userMap.get(firstName)
 
             currentUserCount += 1;
 
